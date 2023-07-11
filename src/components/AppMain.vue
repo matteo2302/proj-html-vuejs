@@ -1,4 +1,5 @@
 <script>
+import AppBuyAvada from './AppBuyAvada.vue';
 import AppLatestCont from './AppLatestCont.vue';
 import AppTraingOpVue from './AppTraingOp.vue';
 import AppEmail from './AppEmail.vue';
@@ -25,12 +26,13 @@ export default{
         }
         
     },
-    components:{AppChannel,AppEmail,AppTraingOpVue,AppLatestCont}
+    components:{AppChannel,AppEmail,AppTraingOpVue,AppLatestCont,AppBuyAvada}
 }</script>
 <template> 
 <AppChannel :channeltitle="channeltitle" :channellink="channellink" :channel="channel"/>
 <AppEmail/>
 <AppTraingOpVue/>
 <AppLatestCont/>
+<AppBuyAvada/>
 </template>
 <style scoped></style>

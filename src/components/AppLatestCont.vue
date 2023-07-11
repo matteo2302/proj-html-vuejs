@@ -14,7 +14,7 @@ export default{
 </template>
 <style scoped>
 .latest-cont{
-    height: 300px;
+    height: 450px;
 }
 .videos{
     height: 300px;
