@@ -22,7 +22,7 @@ export default{}
     background-size: cover;
 }
 .shadow{
-    background-image:linear-gradient(to top, black 5%,transparent);
+    background-image:linear-gradient(to top, #4154ff54 5%,transparent);
     height: 700px;
 }
 .container{
