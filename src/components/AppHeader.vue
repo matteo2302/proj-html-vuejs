@@ -11,4 +11,4 @@ export default{
 </header>
 
 </template>
-<style scooped></style>
+<style scoped></style>

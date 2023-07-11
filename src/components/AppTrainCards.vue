@@ -26,7 +26,7 @@ export default{}
     </div>
 
 </template>
-<style lang="scss" scooped>
+<style lang="scss" scoped>
 .cardtrain{
     width: 300px;
     height: 500px;

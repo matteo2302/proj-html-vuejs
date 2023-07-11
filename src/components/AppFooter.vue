@@ -4,5 +4,5 @@ export default{}
 <template>
 
 </template>
-<style scooped>
+<style scoped>
 </style>

@@ -16,7 +16,7 @@ export default{}
     </div>
 </div></div>
 </template>
-<style lang="scss" scooped>
+<style lang="scss" scoped>
 .email-cont{
 background-image:linear-gradient(to right, black 50%,transparent );
 height: 500px;

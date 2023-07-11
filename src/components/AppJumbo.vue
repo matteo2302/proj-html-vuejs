@@ -14,7 +14,7 @@
 </div>
 <div class="linear-bg"></div>
 </template>
-<style scooped>
+<style scoped>
 .jumbotron{
     height: 600px;
     border: 1px dashed black;

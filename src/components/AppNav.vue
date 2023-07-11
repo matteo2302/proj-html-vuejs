@@ -21,7 +21,7 @@ export default{}
 
     </nav>
 </template>
-<style lang="scss" scooped>
+<style lang="scss" scoped>
 .nav-cont{
     height: 80px;
     border: 1px dashed black;

@@ -10,7 +10,7 @@ export default{
     
 </div>
 </template>
-<style scooped>
+<style scoped>
 .training-op-cont{
     height: 600px;
     background-color: black;
