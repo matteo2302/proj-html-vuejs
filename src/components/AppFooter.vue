@@ -1,10 +1,12 @@
 <script>
+import AppContactsVue from './AppContacts.vue'
 import AppWorkoutTodayVue from './AppWorkoutToday.vue';
 import AppSponsor from './AppSponsor.vue';
 export default{
     components:{
         AppSponsor,
-        AppWorkoutTodayVue
+        AppWorkoutTodayVue,
+        AppContactsVue
 
     }
 }
@@ -12,6 +14,7 @@ export default{
 <template>
 <AppSponsor/>
 <AppWorkoutTodayVue/>
+<AppContactsVue/>
 </template>
 <style scoped>
 </style>
