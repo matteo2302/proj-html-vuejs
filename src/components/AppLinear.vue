@@ -14,8 +14,17 @@ export default{
         <div class="col"><img src="../assets/box3-2x.jpg" alt="video"><div class="position"><p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i></p>
 <h3>Team training</h3><h4>Find a partner</h4></div></div>
     </div>
-</div>
+</div><div class="caption text-center">
+        <h1>"How you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser."</h1>
+        <p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i></p>
+        <div class="d-flex avatar align-items-center justify-content-center">
+            <img src="../assets/avatar-1-2x.jpg" alt="Brandon">
+            <p class="color-w">Bran Jhonson</p>
+            <p>Las Vegas</p>
+        </div>
     </div>
+    </div>
+    
  </template>
   <style lang="scss" scoped>
 .linear-bg{
@@ -31,6 +40,9 @@ h3{
 }
 h4{
     color:white;
+}
+.color-w{
+    color: white;
 }
 .channel-cont{
     height: 500px;
@@ -62,5 +74,23 @@ a{
 .positon{
     position: relative;
     top: -100px;
+}
+.caption{
+    height:400px;
+    h1{
+        color: white;
+        margin-bottom: 100px;
+    }
+}
+.avatar{
+    p{
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    img{
+        border-radius: 100%;
+        width: 80px;
+    }
+
 }
 </style>
