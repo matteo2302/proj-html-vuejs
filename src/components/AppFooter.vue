@@ -1,4 +1,5 @@
 <script>
+import AppCopyright from './AppCopyright.vue';
 import AppContactsVue from './AppContacts.vue'
 import AppWorkoutTodayVue from './AppWorkoutToday.vue';
 import AppSponsor from './AppSponsor.vue';
@@ -6,7 +7,8 @@ export default{
     components:{
         AppSponsor,
         AppWorkoutTodayVue,
-        AppContactsVue
+        AppContactsVue,
+        AppCopyright
 
     }
 }
@@ -15,6 +17,7 @@ export default{
 <AppSponsor/>
 <AppWorkoutTodayVue/>
 <AppContactsVue/>
+<AppCopyright/>
 </template>
 <style scoped>
 </style>
