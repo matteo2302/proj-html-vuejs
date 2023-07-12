@@ -1,4 +1,8 @@
-<script>export default{}</script>
+<script>
+import AppLinear from './AppLinear.vue';
+export default{
+    components:{AppLinear}
+}</script>
 
 <template> 
 <div class="jumbotron"> 
@@ -23,11 +27,12 @@
     
     
 </div>
+<AppLinear/>
 <div class="linear-bg"></div>
 </template>
 <style lang="scss" scoped>
 .jumbotron{
-    height: 600px;
+    height: 800px;
     background-image:url('../assets/slider82x-scaled.jpg') ;
     background-size: cover;
     color: white;
@@ -74,10 +79,6 @@ i{
 }
 .shadow{
     background-image:linear-gradient(to right, black 30%,transparent );
-height: 600px;
-}
-.linear-bg{
-    height: 500px;
-    background-image: linear-gradient(to bottom right, blue, purple ,red);
+height: 800px;
 }
 </style>
