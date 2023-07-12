@@ -27,21 +27,24 @@ export default {};
             <h3>Featured playlist</h3>
             <a href="#">View all video ></a>
         </div>
-        <div class="videos d-flex row-cols-3 g-2 text-center">
+        <div class="videos d-flex row-cols-3 justify-content-between text-center">
             <div class="col">
                 <img src="../assets/video2-2x.jpg" alt="video" />
                 <h4>Thighs & glute workout</h4>
                 <a href="#">Increase your mobility</a>
+                <!-- <button class="play-btn"><i class="fa-solid fa-play"></i></button> -->
             </div>
             <div class="col">
                 <img src="../assets/video7-2x.jpg" alt="video" />
                 <h4>Lift, firm & perk up</h4>
                 <a href="#">Feel young again</a>
+                <!-- <button class="play-btn"><i class="fa-solid fa-play"></i></button> -->
             </div>
             <div class="col">
                 <img src="../assets/video9-2x.jpg" alt="video" />
                 <h4>Slim & trim you waist</h4>
                 <a href="#">Shed those extra pounds</a>
+                <!-- <button class="play-btn"><i class="fa-solid fa-play"></i></button> -->
             </div>
         </div>
     </div>
@@ -121,5 +124,20 @@ a {
     color: white;
     border-radius: 50px;
     border: none;
+}
+.col{
+    width: 400px;
+    a{
+        font-weight: bold;
+        color: #4154ff;
+       
+    }
+    h4{
+        margin-top: 20px;
+    }
+    button{
+        top: -250px;
+        right: 75px;
+    }
 }
 </style>
