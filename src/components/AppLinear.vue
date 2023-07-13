@@ -7,31 +7,43 @@ export default {
     <div class="linear-bg">
         <div class="video-cont container">
             <div class="videos d-flex row-cols-3 justify-content-between">
-                <div class="col"><img src="../assets/service6-2x.jpg" alt="video">
-                    <div class="position">
-                        <p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i
-                                class="fa-solid fa-chevron-up"></i></p>
-                        <h3>Heavy workout</h3>
-                        <h4>Push your limits</h4>
+                <div class="col">
+                    <div class="pos-ab"><img src="../assets/service6-2x.jpg" alt="video">
+                        <div class="shadow"><div class="position">
+                            <p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i
+                                    class="fa-solid fa-chevron-up"></i></p>
+                            <h3>Heavy workout</h3>
+                            <h4>Push your limits</h4>
+                        </div></div>
+                        
                     </div>
                 </div>
-                <div class="col"><img src="../assets/box1-2x.jpg" alt="video">
-                    <div class="position">
-                        <p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i
-                                class="fa-solid fa-chevron-up"></i></p>
-                        <h3>New gym apparel</h3>
-                        <h4>Look good, feel good</h4>
+
+                <div class="col">
+                    <div class="pos-ab"><img src="../assets/box1-2x.jpg" alt="video">
+                        <div class="shadow"><div class="position">
+                            <p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i
+                                    class="fa-solid fa-chevron-up"></i></p>
+                            <h3>New gym apparel</h3>
+                            <h4>Look good, feel good</h4>
+                        </div></div>
+                        
                     </div>
                 </div>
-                <div class="col"><img src="../assets/box3-2x.jpg" alt="video">
-                    <div class="position">
-                        <p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i
-                                class="fa-solid fa-chevron-up"></i></p>
-                        <h3>Team training</h3>
-                        <h4>Find a partner</h4>
+
+                <div class="col">
+                    <div class="pos-ab"><img src="../assets/box3-2x.jpg" alt="video">
+                        <div class="shadow"><div class="position">
+                            <p><i class="fa-solid fa-chevron-up"></i><i class="fa-solid fa-chevron-up"></i><i
+                                    class="fa-solid fa-chevron-up"></i></p>
+                            <h3>Team training</h3>
+                            <h4>Find a partner</h4>
+                        </div></div>
+                        
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="caption text-center">
             <h1>"How you respond to the challenge in the second half will determine what you become after the game, whether
@@ -62,7 +74,7 @@ h3 {
 }
 
 h4 {
-    color: white;
+    color: #FFF941;
 }
 
 .color-w {
@@ -96,15 +108,29 @@ img {
 a {
     color: black;
 }
+.shadow{
+    position: relative;
+    top: -100px;
+    background-image: linear-gradient(to top, black 20%, transparent);
+    border-bottom-right-radius: 25px;
 
+}
 .col {
     margin-top: -100px;
     width: 400px;
+    i{
+        color: white;
+    }
 }
+.pos-ab{
+    position: absolute;
+    width: 400px;
 
-.positon {
+}
+.position {
     position: relative;
-    top: -100px;
+    top: -40px;
+    left: 20px;
 }
 
 .caption {
