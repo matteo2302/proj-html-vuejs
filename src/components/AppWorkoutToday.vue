@@ -7,9 +7,9 @@ export default{
     <div class="banner-bg">
         <div class="linear-bg  flex-column  d-flex justify-content-center align-items-center">
             <button class="play-btn"><i class="fa-solid fa-play"></i></button>
-            <h2>Chest workout of the day</h2>
-            <h3>November 15th, 2019</h3>
-            <a href="#">View all videos <i class="fa-solid fa-arrow-right"></i></a>
+            <h1 class="my-3">Chest workout of the day</h1>
+            <h3 class="my-3">November 15th, 2019</h3>
+            <a  class="my-3" href="#">View all videos <i class="fa-solid fa-arrow-right"></i></a>
         </div>
     </div>
 </template>
@@ -21,14 +21,15 @@ export default{
     background-size: cover;
     height: 700px;
 }
-h2{
+h1{
     color: white;
+    font-size: 50px;
 }
 h3{
     color: #FFF941 ;
 }
 .play-btn{
-    padding: 40px 46px;
+    padding: 38px 44px;
     border-radius: 100%;
     border: none;
     i{
